@@ -101,8 +101,8 @@ function drawDigit(val, place) {
 }
 
 function getDayImg(index) {
-  let days = ["sun", "mon", "tue", "wed", "thu", "fri", "sat"];
-  return `day_${days[index]}.png`;
+  let days = ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"];
+  return `${days[index]}.png`;
 }
 
 // Listen for the onmessage event
